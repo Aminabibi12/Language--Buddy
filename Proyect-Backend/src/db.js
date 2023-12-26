@@ -12,10 +12,11 @@ const pool = new Pool({
   host: dHost,
   database: dName,
   port: dPort,
-  ssl: {
-    rejectUnauthorized: false
-  }
+  // ssl: {
+  //   rejectUnauthorized: false
+  // }
 });
-console.log(pool);
+// console.log(pool);
 
 module.exports = pool;
+

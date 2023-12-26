@@ -8,7 +8,11 @@ const app = express();
 const path = require('path');
 
 // Middlewares
-app.use(cors());
+app.use(cors({
+  origin: 'http://localhost:3000', // Replace with the actual origin of your React app
+  credentials: true, // Allow credentials (cookies, headers) to be sent with the request
+}));
+
 app.use(morgan("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
