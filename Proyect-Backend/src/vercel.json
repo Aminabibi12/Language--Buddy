@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
       {
-          "src": "Proyect-Backend",
+          "src": "/Proyect-Backend",
           "use": "@vercel/node"
       }
   ],
