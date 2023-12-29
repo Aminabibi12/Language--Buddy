@@ -1,4 +1,4 @@
-// Requires
+//Requires
 const routes = require("./routes/routes");
 const bodyParser = require("body-parser");
 const express = require("express");
@@ -9,7 +9,7 @@ const path = require('path');
 
 // Middlewares
 app.use(cors({
-  origin: process.env.REACT_URL, // Replace with the actual origin of your React app
+  origin: 'http://localhost:3000', // Replace with the actual origin of your React app
   credentials: true, // Allow credentials (cookies, headers) to be sent with the request
 }));
 

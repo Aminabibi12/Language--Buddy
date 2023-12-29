@@ -82,7 +82,8 @@ async function register() {
      await fetch(`${config.baseUrl}/sign-up`, {
       method: 'POST',
       headers: {
-          'Content-Type': 'application/json'
+          'Content-Type': 'application/json',
+          'credentials': 'include'
       },
       body: JSON.stringify({
           full_name: form.fullname,

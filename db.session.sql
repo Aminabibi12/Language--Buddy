@@ -1,9 +1,3 @@
-drop table if exists user_info cascade;
-drop table if exists languages cascade;
-drop table if exists language_level cascade;
-drop table if exists connection;
-drop index if exists idx_connections_requester_responder;
-
 CREATE TABLE languages (
   id serial primary key NOT NULL,
   language_name varchar(30) NOT NULL
@@ -70,4 +64,5 @@ insert into connection (requester_id, responder_id, status) values( 2, 3, 'pendi
 insert into connection (requester_id, responder_id, status) values( 3, 1, 'pending');
 insert into connection (requester_id, responder_id, status) values( 1, 1, 'pending');
 insert into connection (requester_id, responder_id, status) values( 2, 1, 'approved');
+
 
