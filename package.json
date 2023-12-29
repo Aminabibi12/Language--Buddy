@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {  
-    "build": "cd frontend-part && npm install && npm run build && cd .. && rm -rf Proyect-Backend/src/build && mkdir Proyect-Backend/src/build && mv frontend-part/build/* Proyect-Backend/src/build && cd Proyect-Backend && npm install && cd ..",
-    "start": "cd Proyect-Backend && npm start && cd .."
-  },
+  "scripts": {
+    "build-frontend": "cd frontend-part && npm install && npm run build",
+    "copy-build": "rm -rf Proyect-Backend/src/build && mkdir Proyect-Backend/src/build && mv frontend-part/build/* Proyect-Backend/src/build",
+    "build": "npm run build-frontend && npm run copy-build",
+    "start": "cd Proyect-Backend && npm start"
+  }
+,  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Gabrielarnof/Language--Buddy.git"
