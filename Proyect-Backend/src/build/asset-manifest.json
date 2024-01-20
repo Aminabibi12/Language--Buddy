@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.14ced141.css",
+    "main.js": "/static/js/main.c440a693.js",
+    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/main_foto.jpeg": "/static/media/main_foto.8395f84aecdce46469df.jpeg",
+    "static/media/world.png": "/static/media/world.8812c46c767b5e57b117.png",
+    "static/media/background_login.png": "/static/media/background_login.e82d4b98d6226b111e05.png",
+    "static/media/speak.png": "/static/media/speak.58d25ada27d4a3bd0252.png",
+    "static/media/back.png": "/static/media/back.bbff4b0cd821f5bc707b.png",
+    "static/media/logo_Transparent_Migracode.png": "/static/media/logo_Transparent_Migracode.486ffa74ca302a3166bf.png",
+    "static/media/logo_occ.png": "/static/media/logo_occ.392a3a12af0a03ce6753.png",
+    "static/media/logo_add.png": "/static/media/logo_add.48aaf9fb98de3a3f6e3f.png",
+    "static/media/logo_languagelab_transparent.png": "/static/media/logo_languagelab_transparent.1e64c4a994b1a44eb3f4.png",
+    "index.html": "/index.html",
+    "main.14ced141.css.map": "/static/css/main.14ced141.css.map",
+    "main.c440a693.js.map": "/static/js/main.c440a693.js.map",
+    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14ced141.css",
+    "static/js/main.c440a693.js"
+  ]
+}

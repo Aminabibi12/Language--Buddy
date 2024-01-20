@@ -14,7 +14,7 @@
 
 function config() {
     return {
-        baseUrl: "https://language-buddy-node.vercel.app/",
+        baseUrl: "https://localhost:4000/",
 
         headers: {
             'Content-Type': 'application/json'
