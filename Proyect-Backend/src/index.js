@@ -9,8 +9,10 @@ const path = require('path');
 
 // Middlewares
 app.use(cors({
-  origin: 'https://localhost:3000', // Replace with the actual origin of your React app
-  credentials: true, // Allow credentials (cookies, headers) to be sent with the request
+  origin: 'https://localhost:3000',
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  allowedHeaders: ['Content-Type'],
 }));
 
 app.use(morgan("dev"));
