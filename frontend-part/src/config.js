@@ -14,7 +14,7 @@
 
 function config() {
     return {
-        baseUrl: "https://localhost:4000/",
+        baseUrl: "https://build-nine-peach.vercel.app",
 
         headers: {
             'Content-Type': 'application/json'
