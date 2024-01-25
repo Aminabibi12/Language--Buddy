@@ -83,9 +83,8 @@ async function register() {
       method: 'POST',
       headers: {
           'Content-Type': 'application/json',
-          
+          'credentials': 'include'
       },
-      credentials: 'include',
       body: JSON.stringify({
           full_name: form.fullname,
           username: form.username,
