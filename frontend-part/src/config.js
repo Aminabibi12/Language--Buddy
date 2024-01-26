@@ -18,7 +18,8 @@ function config() {
         headers: {
             'Content-Type': 'application/json'
         },
-        credentials: 'include'
+        credentials: { include: true }
+
     };
 }
 
