@@ -9,7 +9,7 @@ const path = require('path');
 
 // Middlewares
 app.use(cors({
-  origin: '*',
+  origin: 'language-buddy-alpha.vercel.app',
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type'],
