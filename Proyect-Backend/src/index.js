@@ -9,7 +9,7 @@ const path = require('path');
 
 // Middlewares
 app.use(cors({
-  origin: 'http://localhost:3000/',
+  origin: 'https://build-nine-peach.vercel.app',
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type'],
